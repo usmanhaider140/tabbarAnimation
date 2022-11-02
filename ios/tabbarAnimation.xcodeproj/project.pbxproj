@@ -14,6 +14,10 @@
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
 		7699B88040F8A987B510C191 /* libPods-tabbarAnimation-tabbarAnimationTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 19F6CBCC0A4E27FBF8BF4A61 /* libPods-tabbarAnimation-tabbarAnimationTests.a */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
+		E30FBEF9048D4F098BD309A2 /* chat.icon.json in Resources */ = {isa = PBXBuildFile; fileRef = BFDAC77B2DEC4694891DD005 /* chat.icon.json */; };
+		5777116B36374741A397941C /* home.icon.json in Resources */ = {isa = PBXBuildFile; fileRef = 436D100B3E764EB9BB64B511 /* home.icon.json */; };
+		08F89748EDA243A688A1F206 /* settings.icon.json in Resources */ = {isa = PBXBuildFile; fileRef = 89A1C92951044B2A9D5E273F /* settings.icon.json */; };
+		68E605697D2844D885C8F477 /* upload.icon.json in Resources */ = {isa = PBXBuildFile; fileRef = F4F1D2593E524E649EC4D32E /* upload.icon.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +48,10 @@
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = tabbarAnimation/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		89C6BE57DB24E9ADA2F236DE /* Pods-tabbarAnimation-tabbarAnimationTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-tabbarAnimation-tabbarAnimationTests.release.xcconfig"; path = "Target Support Files/Pods-tabbarAnimation-tabbarAnimationTests/Pods-tabbarAnimation-tabbarAnimationTests.release.xcconfig"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
+		BFDAC77B2DEC4694891DD005 /* chat.icon.json */ = {isa = PBXFileReference; name = "chat.icon.json"; path = "../assets/lottie/chat.icon.json"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		436D100B3E764EB9BB64B511 /* home.icon.json */ = {isa = PBXFileReference; name = "home.icon.json"; path = "../assets/lottie/home.icon.json"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		89A1C92951044B2A9D5E273F /* settings.icon.json */ = {isa = PBXFileReference; name = "settings.icon.json"; path = "../assets/lottie/settings.icon.json"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		F4F1D2593E524E649EC4D32E /* upload.icon.json */ = {isa = PBXFileReference; name = "upload.icon.json"; path = "../assets/lottie/upload.icon.json"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -122,6 +130,7 @@
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
 				BBD78D7AC51CEA395F1C20DB /* Pods */,
+				A2D6BC923A794D39B601F8A9 /* Resources */,
 			);
 			indentWidth = 2;
 			sourceTree = "<group>";
@@ -147,6 +156,18 @@
 			);
 			path = Pods;
 			sourceTree = "<group>";
+		};
+		A2D6BC923A794D39B601F8A9 /* Resources */ = {
+			isa = "PBXGroup";
+			children = (
+				BFDAC77B2DEC4694891DD005 /* chat.icon.json */,
+				436D100B3E764EB9BB64B511 /* home.icon.json */,
+				89A1C92951044B2A9D5E273F /* settings.icon.json */,
+				F4F1D2593E524E649EC4D32E /* upload.icon.json */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+			path = "";
 		};
 /* End PBXGroup section */
 
@@ -244,6 +265,10 @@
 			files = (
 				81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
+				E30FBEF9048D4F098BD309A2 /* chat.icon.json in Resources */,
+				5777116B36374741A397941C /* home.icon.json in Resources */,
+				08F89748EDA243A688A1F206 /* settings.icon.json in Resources */,
+				68E605697D2844D885C8F477 /* upload.icon.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

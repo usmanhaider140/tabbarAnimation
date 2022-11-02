@@ -1,0 +1,21 @@
+{
+  "migIndex": 1,
+  "data": [
+    {
+      "path": "assets/lottie/chat.icon.json",
+      "sha1": "ea18b22410695964b66f2e98f1a80599b812deab"
+    },
+    {
+      "path": "assets/lottie/home.icon.json",
+      "sha1": "0b06266761b294365868e53fe0440ac24e87550d"
+    },
+    {
+      "path": "assets/lottie/settings.icon.json",
+      "sha1": "8969e9b12168a88eddebb19c292c4c0f8aff0b06"
+    },
+    {
+      "path": "assets/lottie/upload.icon.json",
+      "sha1": "1b3750c7da0ae72742fac372a8f08479a31f6de5"
+    }
+  ]
+}

@@ -8,13 +8,14 @@
 
 import React from 'react';
 import {SafeAreaView, StyleSheet, View} from 'react-native';
+import CustomTabBar from './components/customBar/customBar';
 import Tabbar from './components/Tabbar';
 
 const App = () => {
   return (
     <SafeAreaView style={styles.backgroundStyle}>
       <View style={styles.container}>
-        <Tabbar />
+        <CustomTabBar />
       </View>
     </SafeAreaView>
   );
